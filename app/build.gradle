@@ -10,7 +10,7 @@ ext {
 
 android {
     compileSdkVersion 24
-    buildToolsVersion "24.0.2"
+    buildToolsVersion '26.0.2'
     defaultConfig {
         applicationId "com.rex.demoworking"
         minSdkVersion 19
@@ -41,5 +41,6 @@ dependencies {
     compile "com.android.support:appcompat-v7:${supportLibraryVersion}"
 
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha8'
+
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
 }
